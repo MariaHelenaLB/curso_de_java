@@ -1,0 +1,20 @@
+package meu_primeiro_projeto;
+
+public class Principal3 {
+
+	public static void main(String[] args) {
+	Proprietario3 dono1 = new Proprietario3();
+	dono1.nome = "Maria Helena";
+	
+	Carro3 meuCarro = new Carro3();
+	meuCarro.modelo = "RS7";
+	
+	meuCarro.dono = dono1;
+	
+	meuCarro.dono.nome = "MH";
+	
+	System.out.println("meuCarro.dono.nome: " + meuCarro.dono.nome);
+	System.out.println("dono1.nome: " + dono1.nome);
+	
+	}
+}

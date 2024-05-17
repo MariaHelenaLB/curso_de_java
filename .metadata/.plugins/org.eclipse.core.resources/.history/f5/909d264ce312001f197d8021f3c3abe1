@@ -1,0 +1,10 @@
+package meu_primeiro_projeto;
+import java.util.Scanner;
+
+public class Carro {
+
+	String fabricante; //é inicializada como null.
+	String modelo; //é inicializada como null. 
+	String cor; //é inicializada como null.
+	int anoDeFabricacao; //é inicializada com zero.
+}

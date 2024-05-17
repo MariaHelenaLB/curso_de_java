@@ -1,0 +1,17 @@
+package meu_primeiro_projeto;
+
+public class PacientePrincipal {
+
+	public static void main(String[] args) {
+		
+		Paciente p = new Paciente();
+		p.peso = 70.5;
+		p.altura = 1.75;
+		
+		double imcCalculado = p.calcularIndiceDeMassaCorporal();
+		
+		System.out.println("IMC do paciente: " + imcCalculado);
+		
+	}
+
+}

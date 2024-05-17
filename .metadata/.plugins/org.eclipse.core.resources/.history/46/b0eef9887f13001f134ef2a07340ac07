@@ -1,0 +1,15 @@
+package meu_primeiro_projeto;
+
+public class Principal3 {
+
+	public static void main(String[] args) {
+	Proprietario3 dono1 = new Proprietario3();
+	dono1.nome = "Maria Helena";
+	
+	Carro meuCarro = new Carro();
+	meuCarro.modelo = "RS7";
+	
+	meuCarro.dono = dono1;
+	
+	}
+}

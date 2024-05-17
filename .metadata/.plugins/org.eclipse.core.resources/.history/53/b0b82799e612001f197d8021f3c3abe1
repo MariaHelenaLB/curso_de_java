@@ -1,0 +1,17 @@
+package meu_primeiro_projeto;
+
+public class ProprietarioCarro {
+	
+	String marca;
+	String fabricante; 
+	String modelo; 
+	String cor; 
+	int anoDeFabricacao; 
+	
+	String nomeProprietario;
+	String cpfProprietario;
+	int idadeProprietario;
+	String bairroProprietari;
+	String cidadeProprietario;
+	
+}

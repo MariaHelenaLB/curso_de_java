@@ -1,0 +1,10 @@
+package meu_primeiro_projeto;
+import java.util.Scanner;
+
+public class Carro {
+
+	String fabricante;
+	String modelo;
+	String cor;
+	int anoDeFabricacao;
+}

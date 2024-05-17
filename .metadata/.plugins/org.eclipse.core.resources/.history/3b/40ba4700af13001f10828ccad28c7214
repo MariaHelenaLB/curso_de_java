@@ -1,0 +1,11 @@
+package meu_primeiro_projeto;
+
+public class Caminhada {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

@@ -1,0 +1,21 @@
+package meu_primeiro_projeto;
+
+public class Principal {
+
+	public static void main(String[] args) {
+		Carro meuCarro= new Carro();
+		
+		meuCarro.marca = "Audi";
+		meuCarro.modelo = "RS7";
+		meuCarro.fabricante = "Volkswagen";
+		meuCarro.anoDeFabricacao = 2024;
+		meuCarro.cor = "Preto";
+		
+		System.out.println("Marca: " + meuCarro.marca);
+		System.out.println("Modelo: " + meuCarro.modelo);
+		System.out.println("Fabricante: " +  meuCarro.fabricante);
+		System.out.println("Ano de fabricação: " + meuCarro.anoDeFabricacao);
+		System.out.println("Cor: " + meuCarro.cor);
+	}
+
+}

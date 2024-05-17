@@ -1,0 +1,10 @@
+package meu_primeiro_projeto;
+
+public class Preco {
+	
+	double valorCustos;
+	double valorImpostos;
+	double valorLucro;
+	double valorVenda;
+
+}
