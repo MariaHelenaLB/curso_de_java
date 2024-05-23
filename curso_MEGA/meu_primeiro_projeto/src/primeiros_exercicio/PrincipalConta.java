@@ -22,7 +22,7 @@ public class PrincipalConta {
 		
 		conta1.pagar();
 		conta2.pagar();
-		conta3.pagar();
+		conta3.pagar(); 
 
 	}
 
